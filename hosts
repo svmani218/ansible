@@ -1,9 +1,23 @@
 [all]
 10.128.0.5 ht_name=nexus
-
+10.128.0.3 ht_name=k8s-worker1
+10.128.0.4 ht_name=k8s-worker2
+10.128.0.2 ht_name=k8s-master
+10.128.0.6 ht_name=jenkins-server
 
 [nexus-host]
 10.128.0.5 ht_name=nexus
 
 
+[k8s-master]
+10.128.0.2 ht_name=k8s-master
 
+
+
+[k8s-worker]
+10.128.0.3 ht_name=k8s-worker1
+10.128.0.4 ht_name=k8s-worker2
+
+
+[jenkins]
+10.128.0.6 ht_name=jenkins-server
